@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #263859;
+}
+
+#search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#search-input {
+  width: 30%;
+  overflow: hidden;
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 10px 0;
+  border-bottom: 0.15vw solid #ff6768;
+  color: white;
+  outline: none;
+  background: none;
+}
+
+input {
+  border: none;
+}
+
+#search-button {
+  color: #494949;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: white;
+  border-radius: 5px;
+  margin-left: 5px;
+  padding: 10px;
+  border: 0.1vw solid #494949;
+  display: inline-block;
+  transition: all 0.4 ease 0s;
+}
+
+#search-button:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #ff6768;
+  transition: all 0.4s ease 0s;
+}
+
+main {
+  padding: 20px;
+  margin: 10px auto 0 auto;
+  background-color: #6b778d;
+  border-radius: 10px;
+  width: 40%;
+  height: 70%;
+  display: block;
+  box-shadow: 10px 10px 20px 10px rgba(112, 102, 102, 0.2);
+}
+
+#location {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  color: snow;
+  text-align: center;
+}
+
+#temp {
+  text-align: center;
+}
+
+#temp-icon {
+  margin: 1rem;
+  width: 40%;
+  height: auto;
+  border-radius: 5px;
+}
+
+#temp #temp-unit {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  color: snow;
+}
+
+#temp #temp-value {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  color: snow;
+}
+
+#climate {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  color: snow;
+  text-align: center;
+}
