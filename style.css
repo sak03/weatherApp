@@ -100,3 +100,45 @@ main {
   color: snow;
   text-align: center;
 }
+
+@media only screen and (max-width: 825px) {
+  #search-input {
+    width: 60vw;
+    font-size: 5vw;
+  }
+
+  #search-button {
+    font-size: 3vw;
+    padding: 2px;
+    width: 18vw;
+    height: 10vw;
+    border-radius: 2vw;
+    border: 1vw solid #494949;
+  }
+
+  main {
+    width: 80%;
+    height: 90%;
+  }
+
+  #location {
+    font-size: 8vw;
+  }
+
+  #temp-icon {
+    width: 50%;
+    border-radius: 10px;
+  }
+
+  #temp #temp-unit {
+    font-size: 7vw;
+  }
+
+  #temp #temp-value {
+    font-size: 6vw;
+  }
+
+  #climate {
+    font-size: 10vw;
+  }
+}

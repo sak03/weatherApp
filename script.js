@@ -23,7 +23,7 @@ const getWeather = async (city) => {
         );
 
         const weatherData = await response.json();
-        console.log(weatherData);
+        // console.log(weatherData);
         const { name } = weatherData;
         const { feels_like } = weatherData.main;
         const { id, main } = weatherData.weather[0];
